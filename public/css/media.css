@@ -1,0 +1,83 @@
+@media only screen and (max-width: 900px) {
+    .container1 {
+        max-width: 50px;
+        margin-right: 50px;
+        margin-bottom: 25px;
+        padding-right: 0px;
+    }
+
+    input[type=checkbox]{position:absolute;top:-9999px;left:-9999px;background:none}
+    input[type=checkbox]:focus{background:none}
+    label{float:right;display:inline-block;cursor:pointer;margin-right:65px}
+    /*label{float:right;display:inline-block;cursor:pointer;margin-right:0px}*/
+    input[type=checkbox]:checked ~ nav{display:block}
+    nav{display:none;position:absolute;right:0;top:60px;background-color:#eca63f; padding:0;z-index:99}
+    nav ul{width:auto}
+    nav ul li{float:none;padding:0;width:100%;display:table}
+    nav ul li a{color:#FFF;font-size:15px;padding:10px 20px;display:block;border-bottom:1px solid rgba(225,225,225,0.1)}
+}
+
+@media (max-width: 720px) {
+    .paragraph{
+        font-size: 30pt;
+    }
+    .text{
+        font-size: 14pt;
+    }
+    .gradient-button, .gradient-button1 {
+        font-size: 12pt;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+    label {
+        margin-right: 40px;
+    }
+    .row{
+        flex-direction: column;
+
+    }
+    .col-sm-3, .col-sm-4{
+        /*text-align: center;*/
+        padding: 10px;
+        /*text-align: justify;*/
+    }
+}
+
+@media (max-width: 400px) {
+    .Slogan {
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 870px) {
+    .Slogan {
+        font-size: 14pt;
+    }
+    .container1 {
+        max-width: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .Slogan {
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 675px) {
+    .imgMen {
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 460px) {
+    .imgMen {
+        width: 200px;
+        height: auto;
+    }
+}

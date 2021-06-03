@@ -1,0 +1,83 @@
+.secondSection, .fourthSection{
+    margin: 0;
+    justify-content: space-between;
+    color: white;
+    display: block;
+    background-color: #829191;
+}
+
+.paragraph{
+    text-align: center;
+    line-height: 1.3;
+    font-size: 50pt;
+    padding-top: 100px;
+    width: 100%;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.content, .contentButton{
+    line-height: 1.3;
+    width: 100%;
+}
+
+.content {
+    text-align: left;
+    padding: 50px 6% 25px;
+}
+
+.contentButton {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.name_p {
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.review{
+    font-size: 15pt;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-right: 6%;
+    font-style: italic;
+}
+
+.gradient-button{
+    width: 50%;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.gradient-button:hover{
+    background-position: right center;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-size: 200% auto;
+    transition: .5s;
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.gradient-button{
+    background-image: linear-gradient(to right, #B8B8F3 0%, #FFD3BA 51%, white 100%);
+}

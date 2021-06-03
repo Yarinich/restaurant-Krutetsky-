@@ -1,0 +1,30 @@
+.paragraphER {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 50pt;
+    padding-top: 100px;
+    width: 100%;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.paragraphSmalER {
+    text-align: center;
+    line-height: 1.3;
+    font-size: 30pt;
+    background: #FFFCF7;
+    color: #888888;
+    padding-bottom: 200px;
+}
+
+.firstER {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-align: center;
+}
+
+.firstER {
+    background: #FFFCF7;
+}

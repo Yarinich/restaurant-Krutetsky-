@@ -1,0 +1,51 @@
+.alert, .alert-good{
+
+    border-radius: 10px;
+}
+
+.alert {
+    background: indianred;
+}
+
+.alert-good {
+    background: lightyellow;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.reviews {
+    width: 50%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-size: 200% auto;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #45050C 0%, #D84727 51%, indianred 100%);
+    color: white;
+}
+
+.forReviews {
+    text-align: center;
+}
+
+.forUsername {
+    text-align: left;
+}
+
+.forEmail {
+    text-align: left;
+    font-size: 8pt;
+}
+
+.forMessages {
+    font-size: 12pt;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.forSpace {
+    padding-bottom: 80px;
+}
